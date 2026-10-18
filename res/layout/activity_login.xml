@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/login_title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvLoginHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/school_full"
+            android:textColor="@color/onPrimarySub"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:id="@+id/nameBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etName"
+                style="@style/FieldStyle"
+                android:hint="@string/full_name"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etUser"
+            style="@style/FieldStyle"
+            android:layout_marginTop="10dp"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/etPass"
+            style="@style/FieldStyle"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/etPass2"
+            style="@style/FieldStyle"
+            android:layout_marginTop="10dp"
+            android:hint="@string/re_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/btnGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_btn_primary"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

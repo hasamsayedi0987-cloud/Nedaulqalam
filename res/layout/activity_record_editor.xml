@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            style="@style/TopBtn"
+            android:text="@string/back"/>
+
+        <TextView
+            android:id="@+id/tvEdTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/btnDelete"
+            style="@style/TopBtn"
+            android:text="@string/delete"
+            android:textColor="#FF8A80"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/btnSave"
+            style="@style/TopBtn"
+            android:text="@string/save"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <EditText
+                android:id="@+id/etTitle"
+                style="@style/FieldStyle"
+                android:hint="@string/title_hint"
+                android:inputType="textCapSentences"
+                android:maxLines="2"/>
+
+            <EditText
+                android:id="@+id/etCode"
+                style="@style/FieldStyle"
+                android:layout_marginTop="10dp"
+                android:hint="@string/code_hint"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/etPhone"
+                style="@style/FieldStyle"
+                android:layout_marginTop="10dp"
+                android:hint="@string/phone_hint"
+                android:inputType="phone"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/etNote"
+                style="@style/FieldStyle"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:hint="@string/note_hint"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minLines="6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/attach"
+                android:textColor="@color/textSub"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnAttach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_soft"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="📎"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btnOpen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_soft"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/save_out"
+                    android:textColor="@color/primaryDark"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/btnRemove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_soft"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/remove_attach"
+                    android:textColor="@color/danger"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvAttach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/primaryDark"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نداالقلم</string>
+    <string name="school_full">مکتب خصوصی نداالقلم</string>
+    <string name="tagline">سیستم مدیریت مکتب</string>
+
+    <!-- Common -->
+    <string name="back">بازگشت</string>
+    <string name="save">ذخیره</string>
+    <string name="cancel">انصراف</string>
+    <string name="delete">حذف</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="edit">ویرایش</string>
+
+    <!-- Login -->
+    <string name="login_title">ورود به سیستم</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="re_password">تکرار رمز عبور</string>
+    <string name="full_name">نام و تخلص</string>
+    <string name="create_admin_title">ایجاد حساب مدیر مکتب</string>
+    <string name="create_admin_hint">بار اول است؛ حساب مدیر را بسازید</string>
+    <string name="btn_login">ورود</string>
+    <string name="btn_create">ایجاد و ورود</string>
+    <string name="err_fields">همه فیلدها را پر کنید</string>
+    <string name="err_pass">رمزها یکسان نیستند (حداقل ۴ کاراکتر)</string>
+    <string name="err_login">نام کاربری یا رمز اشتباه است</string>
+    <string name="err_user_exists">این نام کاربری قبلاً گرفته شده است</string>
+
+    <!-- Main -->
+    <string name="welcome_fmt">خوش آمدید: %1$s (%2$s)</string>
+    <string name="logout">خروج</string>
+    <string name="users">کاربران</string>
+    <string name="about">درباره</string>
+    <string name="new_section">بخش جدید</string>
+    <string name="new_section_hint">نام بخش جدید</string>
+    <string name="section_added">بخش ساخته شد</string>
+    <string name="count_fmt">%s مورد</string>
+    <string name="rename">تغییر نام</string>
+    <string name="del_section_q">این بخش و همه رکوردهای آن حذف شود؟</string>
+    <string name="section_renamed">نام تغییر کرد</string>
+    <string name="only_admin">این کار فقط برای مدیر است</string>
+
+    <!-- Builtin sections -->
+    <string name="sec_t">معلمین</string>
+    <string name="sec_s">شاگردان</string>
+    <string name="sec_ht">سرمعلمین</string>
+    <string name="sec_e">کارمندان</string>
+    <string name="sec_p">اولیا</string>
+    <string name="sec_lib">کتاب‌خانه</string>
+    <string name="sec_docs">اسناد</string>
+
+    <!-- Records -->
+    <string name="records_of_fmt">بخش: %s</string>
+    <string name="search_hint">جست‌وجو در این بخش…</string>
+    <string name="add_record">ثبت جدید</string>
+    <string name="edit_record">ویرایش</string>
+    <string name="empty_records">هنوز موردی ثبت نشده</string>
+    <string name="empty_records_sub">با دکمه + اولین مورد را ثبت کنید</string>
+    <string name="empty_search">چیزی پیدا نشد</string>
+    <string name="title_hint">عنوان / نام و تخلص…</string>
+    <string name="code_hint">کد / شماره (اختیاری)…</string>
+    <string name="phone_hint">شماره تماس (اختیاری)…</string>
+    <string name="note_hint">توضیحات…</string>
+    <string name="del_record_q">این مورد حذف شود؟</string>
+    <string name="deleted">حذف شد</string>
+    <string name="saved">ذخیره شد</string>
+    <string name="empty_not_allowed">عنوان یا توضیحات را وارد کنید</string>
+
+    <!-- Attachment -->
+    <string name="attach">انتخاب فایل پیوست</string>
+    <string name="attached_fmt">پیوست: %1$s (%2$s)</string>
+    <string name="remove_attach">حذف پیوست</string>
+    <string name="attach_ok">پیوست ذخیره شد</string>
+    <string name="attach_removed">پیوست حذف شد</string>
+    <string name="attach_too_big">حجم فایل زیاد است (حداکثر ۱۵ مگابایت)</string>
+    <string name="save_out">ذخیره بیرون فایل</string>
+    <string name="no_viewer_txt">این فایل متنی نیست؛ از دکمه ذخیره بیرون استفاده کنید</string>
+
+    <!-- Export -->
+    <string name="export">خروجی</string>
+    <string name="exp_txt">متن (TXT)</string>
+    <string name="exp_doc">ورد (Word)</string>
+    <string name="exp_pdf">پی‌دی‌اف (PDF)</string>
+    <string name="pdf_hint">در پنجره چاپ، از منوی پرینتر گزینه «ذخیره به‌صورت PDF» را انتخاب کنید</string>
+    <string name="exp_done">خروجی ذخیره شد</string>
+    <string name="exp_fail">خروجی ناموفق بود</string>
+    <string name="exp_title_fmt">خروجی بخش: %s</string>
+
+    <!-- Users -->
+    <string name="users_title">مدیریت کاربران</string>
+    <string name="role">نقش</string>
+    <string name="add_user">ایجاد کاربر</string>
+    <string name="user_added">کاربر ایجاد شد</string>
+    <string name="reset_pass">تغییر رمز</string>
+    <string name="new_pass_hint">رمز جدید</string>
+    <string name="pass_changed">رمز تغییر کرد</string>
+    <string name="activate">فعال</string>
+    <string name="deactivate">غیرفعال</string>
+    <string name="user_active">فعال</string>
+    <string name="user_inactive">غیرفعال</string>
+    <string name="del_user_q">این کاربر حذف شود؟</string>
+    <string name="role_perms">دسترسی نقش‌ها</string>
+    <string name="perm_hint">بخش‌های قابل مشاهده برای نقش «%s» را انتخاب کنید</string>
+    <string name="perms_saved">دسترسی‌ها ذخیره شد</string>
+    <string name="cannot_delete_self">حساب خودتان قابل حذف نیست</string>
+    <string name="last_admin">آخرین مدیر قابل حذف یا غیرفعال نیست</string>
+
+    <!-- Roles -->
+    <string name="role_admin">مدیر</string>
+    <string name="role_teacher">معلم</string>
+    <string name="role_head">سرمعلم</string>
+    <string name="role_student">شاگرد</string>
+    <string name="role_staff">کارمند</string>
+    <string name="role_parent">ولی شاگرد</string>
+    <string name="role_other">سایر</string>
+
+    <!-- About -->
+    <string name="about_title">درباره اپ</string>
+    <string name="about_body">اپ مدیریت مکتب خصوصی نداالقلم:\nثبت و مدیریت معلمین، شاگردان، سرمعلمین، کارمندان، اولیا، کتاب‌خانه (کتاب‌های متنی، PDF و Word)، اسناد و هر بخش دلخواه دیگر — همراه با ساخت حساب کاربری برای هر شخص، تعیین دسترسی هر نقش و خروجی متنی، ورد و پی‌دی‌اف از هر بخش.</string>
+    <string name="builder_label">سازنده:</string>
+    <string name="builder_name">حسام الدین سیدی</string>
+    <string name="phone_label">شماره تماس:</string>
+    <string name="email_label">ایمیل:</string>
+    <string name="version_fmt">نسخه %s</string>
+    <string name="contact_phone">0791680632</string>
+    <string name="contact_email">hasamsayedi0987@gmail.com</string>
+</resources>

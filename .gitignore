@@ -1,0 +1,12 @@
+# Android build artifacts
+*.class
+*.dex
+bin/
+gen/
+out/
+build/
+local.properties
+*.keystore
+!debug.keystore
+*.idsig
+.DS_Store

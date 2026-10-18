@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- open book: two pages -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,36 L49,36 A4,4 0 0 1 53,40 L53,74 A4,4 0 0 1 49,78 L27,78 A4,4 0 0 1 23,74 L23,40 A4,4 0 0 1 27,36 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,36 L81,36 A4,4 0 0 1 85,40 L85,74 A4,4 0 0 1 81,78 L59,78 A4,4 0 0 1 55,74 L55,40 A4,4 0 0 1 59,36 Z"/>
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M51.5,38 L56.5,38 L56.5,76 L51.5,76 Z"/>
+
+    <!-- text lines -->
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M28,44 L48,44 L48,47.5 L28,47.5 Z"/>
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M28,53 L48,53 L48,56.5 L28,56.5 Z"/>
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M60,44 L80,44 L80,47.5 L60,47.5 Z"/>
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M60,53 L80,53 L80,56.5 L60,56.5 Z"/>
+
+    <!-- amber bookmark -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M68,36 L77,36 L77,53 L72.5,48 L68,53 Z"/>
+
+    <!-- amber pen diagonal -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M70,22 L84,36 L80,40 L66,26 Z"/>
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M84,36 L88.5,40.5 L85.5,41.5 L83,39 Z"/>
+</vector>
